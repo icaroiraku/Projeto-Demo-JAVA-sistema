@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version last-->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Certidao" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4e6bf97b-0902-48f7-990d-74b19486594c">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="nome" class="java.lang.String"/>
+	<field name="codigo" class="java.lang.Integer"/>
+	<group name="certidao">
+		<groupExpression><![CDATA[$F{codigo}]]></groupExpression>
+		<groupHeader>
+			<band height="70">
+				<staticText>
+					<reportElement x="300" y="50" width="70" height="20" uuid="65c4909b-f26a-4a3b-b6f0-683fec3152d1"/>
+					<text><![CDATA[Juiz de Direito]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="40" width="40" height="20" uuid="91126ba7-3751-489a-8262-47d1275dd423"/>
+					<text><![CDATA[Brasília,]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="0" y="0" width="402" height="20" uuid="49c16210-b0f7-4469-a21a-61738cb583e6"/>
+					<text><![CDATA[Exmo(a). Sr(a). Dr(a). Juiz(a) de Direito da Vara de Execução Fiscal do Distrito Federal]]></text>
+				</staticText>
+				<textField>
+					<reportElement x="40" y="40" width="40" height="20" uuid="bdbd3c45-8cfe-4508-818f-1788fb96b4ca"/>
+					<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement x="0" y="20" width="93" height="20" uuid="9359ecf3-f9c8-4c7e-9797-53769241e059"/>
+					<text><![CDATA[A.	Cite-se]]></text>
+				</staticText>
+				<rectangle>
+					<reportElement x="260" y="49" width="151" height="1" uuid="02303f2a-1e51-4477-9760-5e57a69d244c">
+						<property name="local_mesure_unitheight" value="pixel"/>
+					</reportElement>
+				</rectangle>
+			</band>
+		</groupHeader>
+	</group>
+	<columnHeader>
+		<band height="15"/>
+	</columnHeader>
+	<detail>
+		<band height="712" splitType="Stretch">
+			<rectangle>
+				<reportElement x="348" y="640" width="172" height="57" uuid="7487b41c-bc1f-43b0-a386-c85bd394479e"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="140" y="470" width="414" height="85" uuid="5f5eda9f-6aba-4d21-ad43-3574dd985458">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="470" width="140" height="85" uuid="4e5b4641-68f1-4cf7-bc14-5aed333f5611">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="470" width="20" height="13" uuid="20f888c0-eaf6-4d78-ad3b-d2bf96de3eec">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="404" y="394" width="151" height="17" uuid="42f4264c-616c-4c4a-beb8-f9e2d6503417">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="325" y="411" width="80" height="17" uuid="95b021f9-2364-4020-a3aa-002794635fd4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="140" y="394" width="60" height="17" uuid="3dfd283d-c6c8-4fe5-b3fd-45297bd46059">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="200" y="394" width="45" height="17" uuid="72623a51-2d4f-401c-b17a-707522d01fac">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="245" y="394" width="80" height="17" uuid="53ebbd11-d121-4eea-ae4e-8552ca93323c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="20" y="380" width="535" height="13" uuid="53d3e267-2a5d-42b1-abe8-e71253e8552c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="245" y="445" width="80" height="17" uuid="35d632d3-2675-4738-ab08-092eb96b6d1e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="200" y="445" width="45" height="17" uuid="0a4940fe-5991-4df7-89aa-782d2a10531f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="200" y="411" width="45" height="17" uuid="010a1cd7-1f58-46f1-bbf8-3961dfe13f37">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="140" y="445" width="60" height="17" uuid="c5b0ac9c-2c7a-40de-b646-b90649bf387d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="140" y="428" width="60" height="17" uuid="70f73a31-3352-4d4a-8b16-53daee1f0c24">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="140" y="411" width="60" height="17" uuid="0668735e-18da-4469-b5f2-3d1019056e7e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="380" width="20" height="13" uuid="b22b75ba-8146-4a90-bd42-cdcb776c7664">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="402" y="253" width="152" height="17" uuid="59a187cc-129c-4043-a4ee-5712edcd7cdb">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="280" y="253" width="122" height="17" uuid="cc3cb1f8-024b-4da1-960c-71903b47de6b">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="110" y="270" width="70" height="98" uuid="f48661d5-c662-4a1e-b332-71b818d6e8ef">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="110" y="253" width="70" height="17" uuid="20b2f6bc-4479-49a1-9589-244a48ee1762">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="130" y="240" width="424" height="13" uuid="2ee2a378-5066-4b12-bab6-43c81e50112e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="240" width="110" height="30" uuid="c060b661-69b0-4412-b04f-d3c4d3488648">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="270" width="110" height="98" uuid="fa7130a2-1192-4496-b148-b8aab50291b7">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="61" y="123" width="49" height="13" uuid="9a759758-791b-447d-8e57-81d98abb267d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="110" y="123" width="150" height="13" uuid="73091f3b-66a5-4024-b990-5b84b0c8e30e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="260" y="123" width="294" height="13" uuid="a46eca64-e8f9-44be-9594-9a5e70f5691d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="123" width="61" height="13" uuid="b42a6303-74c2-4762-badf-7f6229f6eeb2">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="136" width="61" height="98" uuid="805c968e-3fd2-4e46-9301-c2583eb8bd1d">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="48" width="555" height="55" uuid="5ba8b3ad-9496-412b-b21a-913a3fcf6c20"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="20" y="47" width="535" height="13" uuid="b090e6ab-1170-431e-978f-ebefb09f77c9">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="47" width="20" height="13" uuid="229d1b14-901d-4e69-a48c-f5629d1e42e4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="0" width="554" height="40" uuid="88387698-b6f0-4f28-98b5-6d234c3d46f7"/>
+				<text><![CDATA[A FAZENDA PÚBLICA DO DISTRITO FEDERAL, por seu Procurador infra-assinado, com fundamento na Lei nº. 6.830, de 22/09/1980, vem promover perante V. Exa, a Presente EXECUÇÃO FISCAL, com base na certidão  da Divida Ativa Abaixo discriminada:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="100" y="47" width="370" height="13" uuid="2de7e0d8-427e-4930-8c2a-9e34e4957656">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[NOME E ENDEREÇO DO(S) DEVEDOR(ES) E DO(S) CORRESPONSÁVEL(IES)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="47" width="10" height="13" uuid="641a57fc-f38f-4561-802c-25920f60e420">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[A]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="110" width="20" height="13" uuid="3169d1a5-99c8-4a7a-a29a-61f58c4324bd">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="20" y="110" width="534" height="13" uuid="461a7563-b029-4a41-9bef-34d62217b057">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="5" y="110" width="10" height="13" uuid="cb4af013-b75b-4627-b7fe-09cff55e15ac">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[B]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="250" y="110" width="63" height="13" uuid="7b47abe9-7497-48c0-95cf-9ff0b0aab24e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[INSCRIÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="149" width="5" height="13" uuid="94a35f9f-8c27-436b-b16a-58a40a62fd50">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="221" width="5" height="13" uuid="62019a8c-87f0-4c75-afdc-ffbe5dedc3f9">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[8]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="169" width="5" height="13" uuid="75d3ca43-c67e-4a71-bec9-af47e26e388b">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="123" width="51" height="13" uuid="e1c9c939-eedc-42e0-b304-e3d6e95ae35e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[NÚMERO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="159" width="5" height="13" uuid="3a70dd4e-8661-4b27-b5b9-f904aa7e7357">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="195" width="5" height="13" uuid="4d836b1c-c4f8-4000-aae0-05736cc63174">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="208" width="5" height="13" uuid="0ad2ee1c-dd78-424b-93eb-15e57d8e9c09">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="136" width="5" height="13" uuid="de8a212c-ea64-4e5a-9155-9048928f123d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="182" width="5" height="13" uuid="bc53d823-6a52-473b-8077-8563d9fcab5d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="260" y="136" width="294" height="98" uuid="26dfee85-9856-4a5e-9250-dd03e54920b5">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="160" y="123" width="40" height="13" uuid="0ebef564-9406-42b7-9322-26a8925d6ec2">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[ORDEM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="70" y="123" width="29" height="13" uuid="fdbf4d6e-3f49-41e7-acf9-89f77f399448">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[DATA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="370" y="123" width="60" height="13" uuid="13772cf4-9846-4788-a9a6-dd44bccd5dd3">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[NATUREZA]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="61" y="136" width="49" height="98" uuid="ae53af46-ad7a-4e3b-9ae1-a9c8359cd876">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="110" y="136" width="150" height="98" uuid="3539b1f9-0a45-4d5f-bada-eb550022fb52">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="316" width="5" height="13" uuid="06f32996-7154-46ef-9ff3-29aae122467c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="242" width="95" height="13" uuid="5d960f1b-0dd0-4788-8023-732639d5eb3a">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[DATA CONSTITUIÇÃO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="342" width="5" height="13" uuid="cd218265-8006-457a-b11b-c9ba28140b0d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="293" width="5" height="13" uuid="89ced114-5c26-402b-84c6-cf53d2cc873e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="355" width="5" height="13" uuid="5b0da32b-547f-4efe-b585-d028364e7850">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[8]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="283" width="5" height="13" uuid="c25e910d-e939-4544-a5b8-cb74b606229c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="270" width="5" height="13" uuid="009822e9-c771-44fd-a6b6-cccc8a2273e1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="329" width="5" height="13" uuid="561dfffb-3e7c-46d1-ba54-fcf6129ec336">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="240" width="8" height="13" uuid="8252c4f6-124a-4a48-88ad-0e881a5051c2">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[C]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="303" width="5" height="13" uuid="e57e8fc3-c44d-45fa-aa66-f931ba7f255c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="255" width="61" height="13" uuid="302c112f-2769-4605-990f-62b2c9aeb2f4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[DEFINITIVA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="260" y="240" width="132" height="13" uuid="c777b9c0-e31a-45bf-8aa1-bd2c0e2c555b">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[VALOR ORIGINÁRIO EM R$]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="110" y="240" width="20" height="13" uuid="b5058d7f-32f0-4d3b-a12d-5bdc50640460">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="115" y="240" width="10" height="13" uuid="6d073cd4-eb55-4e56-8316-8ce5bae9201f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[D]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="303" width="5" height="13" uuid="1e194efe-c67e-4f6c-ba37-8f3f7af4c072">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="120" y="255" width="56" height="13" uuid="1a4853a3-2244-42f7-a167-43043f0b8997">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[PRINCIPAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="293" width="5" height="13" uuid="fbb07f37-be7e-43f0-9ef5-541e3f1edc37">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="355" width="5" height="13" uuid="2778902a-7529-4c0a-8bc6-0b9e9b404700">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[8]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="270" width="5" height="13" uuid="2163beb1-076e-4b2d-98f3-4d6aab758aba">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="316" width="5" height="13" uuid="9c397a4b-e84d-4961-aa4e-b38e122482e1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="342" width="5" height="13" uuid="9153bae3-4702-4d28-9701-2a64cc20ce4a">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="283" width="5" height="13" uuid="8c734026-7055-496b-a6dc-b435de5af865">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="110" y="329" width="5" height="13" uuid="3c38b601-419f-41a0-b44b-eb0b8587db56">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="180" y="253" width="100" height="17" uuid="0d1af4a5-202b-40f5-b3d1-9e926c789e90">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="180" y="270" width="100" height="98" uuid="c5d0db55-10a2-43fe-ada1-40da1d7c62ff">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="420" y="257" width="112" height="13" uuid="696b778f-993a-404b-a85e-315786e5ff3f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[JUROS DE MORA (LC 435/01)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="286" y="257" width="112" height="8" uuid="f2c5b2c5-611e-4ebb-acad-a30ecb5da4b3">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="6"/>
+				</textElement>
+				<text><![CDATA[CORREÇÃO MONETÁRIA (LC 435/01)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="280" y="270" width="122" height="98" uuid="b71566a7-236f-4c36-9fec-c57649a1e5bc">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="210" y="255" width="40" height="13" uuid="57cdb028-361e-45ed-8b88-2045cd6e0ee5">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[MULTA]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="402" y="270" width="152" height="98" uuid="e342e931-90d4-4cc5-8112-939ad2f4a265">
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="428" width="140" height="17" uuid="aa1ba576-9d1d-4d0f-b783-44454d0ab533">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="394" width="140" height="17" uuid="3403fc9f-969a-4ccf-bf3a-2a5204d25bc4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="0" y="411" width="140" height="17" uuid="fc50aa85-f7af-4ad0-9e85-10333f4446b4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="5" y="396" width="130" height="13" uuid="d50aeb6c-a073-4781-b679-9b738ad3f076">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[CORREÇÃO MONETÁRIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="22" y="413" width="88" height="13" uuid="82993ff6-7f5a-4dfb-bcb2-b11ca3e3eef6">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[JUROS DE MORA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="381" width="10" height="13" uuid="84d6c2ba-a869-4aa3-9ff4-f7083913717d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[E]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="445" width="140" height="17" uuid="ddb99da2-0b21-4c4d-a364-97c3da1a6cd1">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="5" y="430" width="130" height="13" uuid="5a278387-b513-43c5-92fb-b2a3c7f22344">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[CORREÇÃO MONETÁRIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="20" y="447" width="88" height="13" uuid="0461196a-ac4d-471f-aed0-8d64dca56909">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[JUROS DE MORA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="432" width="5" height="13" uuid="6d10d73e-ed9c-45dd-80ea-f6057f236a5f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="449" width="5" height="13" uuid="a8be90f5-6548-4588-9b9d-5229b8bd2aa8">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[6]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="415" width="5" height="13" uuid="82a0fcc0-a1eb-4540-ab3c-89d192f471cd">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="398" width="5" height="13" uuid="31dfb9ac-3102-4ed3-a627-f9d47e3937c6">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="449" width="5" height="13" uuid="c6c88134-bcf2-4042-a6c1-962ab245a50e">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="200" y="428" width="45" height="17" uuid="7b40e645-f4aa-4f49-a66c-78dffb75acc9">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="200" y="398" width="5" height="13" uuid="44ffd1a7-e9a1-4844-8a57-1063c6913d40">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="415" width="5" height="13" uuid="af0e990d-9292-4b8a-ba76-9a21368b5a7f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="200" y="432" width="5" height="13" uuid="dca04444-00b8-48ea-9a30-22da184987d6">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[7]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="398" width="5" height="13" uuid="88dcc941-e820-4122-9d9e-a42471f30b69">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="449" width="5" height="13" uuid="865e1945-0769-4c1a-98b7-1c22b1b8ecef">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[8]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="245" y="411" width="80" height="17" uuid="c1b3217d-0068-45e0-abbb-7d927f5b1af8">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="245" y="428" width="80" height="17" uuid="c6538086-3dea-41d9-97d2-730db4eff4a4">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="245" y="415" width="5" height="13" uuid="3c198165-9492-4bbf-a093-6cd67155ea4c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[3]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="245" y="432" width="5" height="13" uuid="b9cfe1b6-9034-4dcd-861f-20b9292b4dfd">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[8]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="325" y="445" width="80" height="17" uuid="3b9db1f2-f978-4fc0-8ef7-0025b9e8caec">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="325" y="428" width="80" height="17" uuid="ae371b97-3402-4ebc-bc07-e771ed25ec79">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="325" y="394" width="79" height="17" uuid="0bd1b12f-5238-4fb7-8eb8-e53d7ee36733">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="325" y="398" width="5" height="13" uuid="879feb4b-edd3-42fe-9a45-426f66cd9f6d">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="325" y="417" width="5" height="13" uuid="071e18dd-ad12-40a6-b66b-8279731fd5e2">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[4]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="405" y="396" width="5" height="13" uuid="fe937dbb-3c17-4606-8b56-68fb2e2d9493">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="404" y="411" width="151" height="17" uuid="5b4c3f2c-31d2-4a25-8a42-710a4ab7d753">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="404" y="428" width="151" height="17" uuid="35fab069-e879-4380-a773-962f8a0b09d7">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="404" y="445" width="151" height="17" uuid="7c0c5d02-38c8-4335-89cc-40bfa6d9af22">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="404" y="415" width="5" height="13" uuid="16eda334-e27a-4de8-9b4a-53854c401052">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[5]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="15" y="490" width="54" height="29" uuid="1a810ae6-2a39-425f-950d-5bf052df818c"/>
+				<text><![CDATA[CERTIDÃO Nº]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="470" width="10" height="13" uuid="3ebe8408-3b4a-4ec3-a93b-14c0e5b7fd56">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[F]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="166" y="470" width="384" height="40" uuid="0cd9a727-9e47-4176-9824-0d2a207b2347"/>
+				<text><![CDATA[CERTIFICO QUE O(S) DÉBITO(S) DISCRIMINADO(S) NESTA CERTIDÃO CONTÉM(ÉM) TODOS OS ELEMENTOS DO(S) SEU(S) TERMO(S) DE INSCRIÇÃO NO REGISTRO DE DÍVIDA ATIVA DO DISTRITO FEDERAL]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="140" y="470" width="20" height="13" uuid="95d2a4e2-aeaf-4d89-b741-64b9d2f5e339">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="145" y="470" width="10" height="13" uuid="4be3add6-42da-45d9-89b5-8d193e783d34">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="275" y="540" width="240" height="15" uuid="123e3002-e540-472c-8d7b-6dd721205a67">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<text><![CDATA[Chefe do Núcleo de Gestão da Dívida Ativa da PGDF]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="145" y="535" width="70" height="20" uuid="edd65978-660e-4d89-9828-757cd1ccef76"/>
+				<text><![CDATA[Em __/__/__]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="270" y="535" width="250" height="1" uuid="52d98038-589b-408a-a534-324edac2cec3">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<image>
+				<reportElement x="245" y="510" width="260" height="26" uuid="9b9f8079-9816-4d05-a2e2-f648f579e0b4"/>
+				<imageExpression><![CDATA["C:/Users/5069597/Downloads/assinatura01.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="560" width="554" height="86" uuid="b0613a07-2ef4-4c42-81b4-1e1bfa105196"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Requer, assim, se digne ordenar a citação, segundo as diversas modalidades legais, da(s) pessoa(s) acima relacionada(s), na conformidade do art. 7º e pelas sucessivas formas previstas no art. 8º, da Lei nº6.830/80, para que pague(m) incontinenti, no prazo legal, o débito atualizado, com correção monetária e juros (LC 435/010 e demais acessórios de direito, ou garanta(m) a execução, para efeitos de embargo, nos termos do art. 9º da referida Lei. Na hipótese de não serem encontrados os devedores para citação por oficial de justiça, nos endereços acima, requer seja determinada a citação por edital. Na hipótese de ausência de pagamento ou garantia de execução, requer seja determinada a imediata penhora de bens, direitos e valores, observando-se, preferencialmente, a penhora de dinheiro em espécie, em depósito ou aplicação em instituição financeira, por meio do Bancejud (art. 655, I do CPC e art. 11, I, da Lei nº 6.830/80). Se a diligência do Bancejud for negativa, requer vista dos autos para indicações de bens passíveis de penhora. Pede deferimento.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="644" width="145" height="13" uuid="433f9966-a41d-424e-a96d-5d5b2318fb4f">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Brasilia-DF     de       de 2012]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="358" y="640" width="150" height="27" uuid="ca4557e2-a4cb-417c-9bea-09c07abc3478">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Dá-se a presente o valor fiscal de R$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="359" y="670" width="129" height="27" uuid="2b422f86-638e-4db3-8798-d0b51ef85ed8">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<text><![CDATA[Valor atualizado nesta data. R$]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="99" y="677" width="53" height="12" uuid="0013cce3-8992-4a39-adff-ce5d9e53836c">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Procurador(a)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="50" y="677" width="150" height="1" uuid="0be016d6-fcc9-4b1e-bffb-779018b2e381">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="0" y="689" width="251" height="12" uuid="ba689b2f-25bc-4d45-a8f5-7c99ec9486cc">
+					<property name="local_mesure_unitheight" value="pixel"/>
+				</reportElement>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[BRUNO PAIVA DA FONSECA PROCURADOR CHEFE DA PROFIS]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="380" y="701" width="114" height="11" uuid="e5996cc8-770c-474b-9c4b-8507c88dc3f4"/>
+				<textElement textAlignment="Right">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Página " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="500" y="700" width="55" height="12" uuid="f6afa607-4d5e-4dcc-9603-94ab4f81b220"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" de " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="150" y="173" width="70" height="30" uuid="d32507c3-ae7c-4d90-abc1-30d1d9be7259"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{codigo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="173" width="203" height="30" uuid="7d1a5167-45d2-427d-aed5-1b64ed565195"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
